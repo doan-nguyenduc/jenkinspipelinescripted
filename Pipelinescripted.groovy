@@ -8,6 +8,5 @@ node
 	sh """
 	    gcc -o main HelloWorld.c 
         ./main
-	rm -rf main		
 	"""
 }
