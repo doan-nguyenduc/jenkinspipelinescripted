@@ -6,7 +6,7 @@ node
     sh 'printenv'
     git 'https://github.com/doan-nguyenduc/cLinux.git'
 	sh """
-	    gcc -o HelloWorld.c main
+	    gcc -o main HelloWorld.c 
         ./main		
 	"""
 }
