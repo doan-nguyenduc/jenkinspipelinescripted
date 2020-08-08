@@ -5,4 +5,8 @@ node
     sh 'pwd'
     sh 'printenv'
     git 'https://github.com/doan-nguyenduc/cLinux.git'
+	sh """
+	    gcc -o HelloWorld.c main
+        ./main		
+	"""
 }
