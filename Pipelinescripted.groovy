@@ -5,5 +5,4 @@ node
     sh 'pwd'
     sh 'printenv'
     sh 'ls'
-    sh 'pwd' 
 }
