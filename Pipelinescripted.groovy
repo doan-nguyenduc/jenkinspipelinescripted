@@ -7,6 +7,7 @@ node
     git 'https://github.com/doan-nguyenduc/cLinux.git'
 	sh """
 	    gcc -o main HelloWorld.c 
-        ./main		
+        ./main
+	rm -rf main		
 	"""
 }
